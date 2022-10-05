@@ -1,0 +1,199 @@
+:root{
+    --color-background-main:#FFFFFF;
+    --color-background-secondary:#2F303A;
+    --color-background-accent: #F5F4FA;
+    --color-accent:#2196F3;
+    --color-font-main:#212121;
+    --color-font-secondary: #757575;
+    --color-font-accent: #FFFFFF;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: none;
+    color: var(--color-font-main);
+}
+
+.footer {
+    background-color: var(--color-background-secondary);
+}
+
+
+.logo-link {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.1923;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.logo-header {
+    color: var(--color-font-main);
+    }
+
+.logo-footer {
+    color: var(--color-font-accent);}
+
+
+
+.nav{color: var(--color-font-main);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list {list-style: none;
+text-transform: none;}
+
+.link:hover {
+    color: var(--color-accent);
+}
+
+
+.contacts-link {
+    color: var(--color-font-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.footer-adress{font-style: normal;}
+
+.footer-contacts{
+    color: var(--color-font-secondary);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+}
+.adress {
+    color: var(--color-font-accent);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.hero {
+    background-color: var(--color-background-secondary);
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+.hero-tittle{
+    color: var(--color-font-accent);
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    letter-spacing: 0.06em;   
+}
+
+.primary-button {
+    font-family: inherit;
+    background-color: var(--color-accent);
+    color: var(--color-font-accent);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    }
+.primary-button:hover {
+    background-color: var(--color-accent);
+    color: var(--color-font-accent);
+    border: none;
+}
+
+.filter{
+    font-family: inherit;
+    background-color: var(--color-background-accent);
+    color: var(--color-font-main);
+    border:none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.66;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.filter:hover {
+    color: var(--color-background-accent);
+    background-color: var(--color-accent);
+    border: none;
+}
+.filter:focus {
+    color: var(--color-background-accent);
+    background-color: var(--color-accent);
+    border: none;
+}
+.features{
+    color: var(--color-font-main);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+.features-description {
+    color: var(--color-font-secondary);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.preview{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.case {
+    color: var(--color-font-main);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.03em;
+}
+.case-type {
+    color: var(--color-font-secondary);
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    }
+
+
+.team{
+    background-color: var(--color-background-accent);
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase;
+    }
+.team-tittle {
+    font-size: 36px;
+    line-height: 1.17;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: none;
+}
+.name {
+    color: var(--color-font-main);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.speciality {
+    color: var(--color-font-secondary);
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
